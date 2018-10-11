@@ -1,0 +1,134 @@
+
+.intro .intro-body .brand-heading {
+    color: #F4D03F;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.intro .intro-body .brand-heading {
+    color: #F4D03F;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+.intro .intro-body h1{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #999;
+    
+}
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+p {
+    font-family: microsoft yahei, sans-serif;
+}
+.intro-title {
+  padding-top: 200px;
+}
+
+/*about部分*/
+.skills h2{
+  color: #F4D03F;
+}
+.about-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.about-list li {
+  list-style: none;
+}
+.about-main {
+  padding-top: 30px;
+}
+.about-main .about-list .list-box{
+  width: 100px;
+}
+.about-main .about-list .list-box .list-img{
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  background: rgba(255,255,255,.1);
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.about-main .about-list .list-box .list-img img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translateY(-50%) translateX(50%);
+  transform: translateY(-50%) translateX(50%);
+}
+.about-main .about-list .list-box {
+  text-align: center;
+  font-size: 18px;
+}
+.skills  .about-me {
+  text-align: center;
+  line-height: 24px;
+  padding-top: 20px;
+  font-size: 18px;
+  color: #000;
+}
+.skills .about-me p {
+    text-align: center;
+    line-height: 24px;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #000;
+}
+/*about部分结束*/
+
+
+/* phone */
+
+.phone {
+  padding-top: 30px;
+}
+.phone h2 {
+  margin: 4em 0 0 0;
+  color: #F4D03F;
+}
+.phone .about-list .list-box{
+  width: 100px;
+}
+.phone .about-list .list-box .list-img{
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  background: rgba(255,255,255,.1);
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.phone .about-list .list-box .list-img img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translateY(-50%) translateX(50%);
+  transform: translateY(-50%) translateX(50%);
+}
+.phone .about-list .list-box {
+  text-align: center;
+  font-size: 18px;
+}
+.phone .list-span span{
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+/* //phone */
+
+
